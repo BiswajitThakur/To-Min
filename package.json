@@ -1,0 +1,31 @@
+{
+  "name": "to-min",
+  "version": "1.0.0",
+  "description": "to-min is a JavaScript library that remove comments, unnecessary spaces and new lines of HTML, JS and CSS code without compromising functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiswajitThakur/to-min.git"
+  },
+  "author": "Biswajit Thakur <biswajit733127@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BiswajitThakur/to-min/issues"
+  },
+  "homepage": "https://github.com/BiswajitThakur/to-min#readme",
+  "keywords": [
+    "to-min",
+    "minify js",
+    "minify javascript",
+    "optimize js",
+    "optimize javascript",
+    "compress js",
+    "compress javascript",
+    "html",
+    "css",
+    "js"
+  ]
+}
