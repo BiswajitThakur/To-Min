@@ -34,7 +34,6 @@ console.log(minJs);
 ```
 ```
 'use strict';let arr=[122,576,86,0,11];console.log((function(a){console.log(a);let q=a.map((v)=>v*v);console.log(q);let s="// This /* is \"   */ String. '  ";return s;})(arr));const hello=/regex  \/   \$/g;console.log(typeof hello);
-
 ```
 
 

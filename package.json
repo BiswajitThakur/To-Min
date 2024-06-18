@@ -4,7 +4,7 @@
   "description": "to-min is a JavaScript library that remove comments, unnecessary spaces and new lines of HTML, JS and CSS code without compromising functionality.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/test.js"
   },
   "repository": {
     "type": "git",
