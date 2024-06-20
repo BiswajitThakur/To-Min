@@ -7,14 +7,16 @@ npm install to-min
 ```
 ## Language Support
 - [ ] HTML
-- [ ] CSS
 - [x] JavaScript
+- [x] CSS
 
 ## Time Complexity
 * JavaScript - O(n)
+* CSS - O(n)
 
 ## Space Complexity
 * JavaScript - O(n)
+* CSS - O(n)
 
 ## Example - JavaScript
 ```js
@@ -42,4 +44,22 @@ console.log(minJs);
 'use strict';let arr=[122,576,86,0,11];console.log((function(a){console.log(a);let q=a.map((v)=>v*v);console.log(q);let s="// This /* is \"   */ String. '  ";return s;})(arr));const hello=/regex  \/   \$/g;console.log(typeof hello);
 ```
 
+## Example - CSS
 
+```js
+const toMin = require('to-min');
+const minCss = toMin.toMinCss(`
+div    {
+  column-rule:    4px   double    #ff00ff  ;   /*   ** Comment** * / */
+}
+@media     screen     and      (max-width:    600px)   {
+  .column.side,       .column.middle   {
+    width: 100%;
+  }
+}
+`)
+console.log(minCss);
+```
+```
+div{column-rule:4px double #ff00ff;}@media screen and (max-width:600px){.column.side,.column.middle{width:100%;}}
+```
