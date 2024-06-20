@@ -10,6 +10,12 @@ npm install to-min
 - [ ] CSS
 - [x] JavaScript
 
+## Time Complexity
+* JavaScript - O(n)
+
+## Space Complexity
+* JavaScript - O(n)
+
 ## Example - JavaScript
 ```js
 const toMin = require('to-min');
