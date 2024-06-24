@@ -1,12 +1,11 @@
 # to-min
-**to-min** is a powerful and easy-to-use JavaScript library designed to optimize your HTML, JavaScript and CSS code by removing comments, unnecessary spaces, and new lines. Enhance your web performance by reducing the size of your code without compromising functionality.
+**to-min** is a powerful and easy-to-use JavaScript library designed to optimize your JavaScript and CSS code by removing comments, unnecessary spaces, and new lines. Enhance your web performance by reducing the size of your code without compromising functionality.
 
 ## Installation
 ```bash
 npm install to-min
 ```
 ## Language Support
-- [ ] HTML
 - [x] JavaScript
 - [x] CSS
 

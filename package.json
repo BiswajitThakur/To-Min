@@ -1,6 +1,6 @@
 {
   "name": "to-min",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "to-min is a JavaScript library that remove comments, unnecessary spaces and new lines of HTML, JS and CSS code without compromising functionality.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,6 @@
     "optimize javascript",
     "compress js",
     "compress javascript",
-    "html",
     "css",
     "js"
   ]

@@ -68,7 +68,7 @@ function index(s) {
             continue;
         };
         // regex /  /
-        if (s[i] == '/' && r[r.length - 1] == '=') {
+        if (s[i] == '/' && (r.length==0||(r.length>0&&/[^\w\$\)]/.test(r[r.length - 1])))){
             r.push(s[i]);
             i++;
             while ((s[i - 1] == '\\' || s[i] != '/') && i < s.length) {
